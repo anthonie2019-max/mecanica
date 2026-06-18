@@ -96,7 +96,7 @@
 
     </div>
 
-//HOLAAAAAAAAAAAAAAAA
+--------
         <!-- SECCIÓN DE CUESTIONARIO -->
         <h2 class="text-2xl font-bold text-slate-800 border-b-2 border-slate-100 pb-2 mb-4 mt-12">Preguntas de Práctica</h2>
         
@@ -119,6 +119,81 @@
                 <strong>💡 Explicación:</strong> El trabajo mecánico es $W = F \cdot d \cdot \cos(\theta)$. Si la fuerza es perpendicular, el ángulo es de $90^\circ$, y como $\cos(90^\circ) = 0$, el trabajo realizado es cero. Por el teorema del trabajo-energía ($W = \Delta K$), si no hay trabajo, no hay cambio en la energía cinética.
             </div>
         </div>
+---------
+ <div class="max-w-3xl mx-auto bg-white p-6 md:p-10 rounded-2xl shadow-lg border border-slate-200">
+        
+        <!-- TÍTULO Y RESUMEN -->
+        <h1 class="text-3xl font-bold text-emerald-600 mb-2">Guía de Estudio: Teorema del Trabajo y Frenado de Objetos</h1>
+        <span class="inline-block bg-emerald-100 text-emerald-800 text-sm px-3 py-1 rounded-full font-medium mb-6">Materia: Física</span>
+        
+        <p class="text-slate-600 mb-8 text-lg leading-relaxed">
+            Esta guía explora la relación directa que existe entre la energía cinética de un objeto y el trabajo necesario para detenerlo. Demuestra matemáticamente que la distancia de frenado bajo una fuerza constante no depende del peso o de la rapidez por sí solos, sino de la combinación de ambos expresada como Energía Cinética ($K = \frac{1}{2}mv^2$).
+        </p>
+
+        <!-- CONCEPTOS CLAVE -->
+        <h2 class="text-2xl font-bold text-slate-800 border-b-2 border-slate-100 pb-2 mb-4">Conceptos Clave</h2>
+        <ul class="space-y-4 text-slate-700 list-disc pl-5 mb-8">
+            <li>
+                <strong>La trampa de la masa vs velocidad:</strong> Es intuitivo pensar que un objeto muy pesado es más difícil de detener, o que uno muy rápido llega más lejos. Sin embargo, en física de energías, la velocidad está elevada al cuadrado ($v^2$). Esto significa que un objeto ligero pero muy rápido puede tener tanta o más energía que un objeto masivo pero lento.
+            </li>
+            <li>
+                <strong>Trabajo de Frenado:</strong> Cuando un objeto frena, la fuerza se aplica en dirección opuesta al movimiento (el ángulo es $180^\circ$, por lo que el coseno es $-1$). El trabajo es $W = -F \cdot d$.
+            </li>
+            <li>
+                <strong>Igualando Energía y Trabajo:</strong> Según el teorema Trabajo-Energía, el trabajo neto iguala al cambio de energía cinética: $W_{net} = K_f - K_i$. Como el objeto se detiene, la energía final es cero ($K_f = 0$).<br>
+                Sustituyendo queda: $-F \cdot d = 0 - K_i \rightarrow \mathbf{F \cdot d = K_i}$
+            </li>
+            <li>
+                <strong>Conclusión de distancias:</strong> De la ecuación anterior deducimos que $d = K_i / F$. Si dos objetos distintos resultan tener la misma energía cinética inicial ($K_i$) y se les aplica la misma fuerza ($F$), matemáticamente están obligados a detenerse en la misma distancia ($d$).
+            </li>
+        </ul>
+
+        <!-- CUADRO DE FÓRMULAS -->
+        <div class="bg-amber-50 border-2 border-amber-200 p-6 rounded-xl mb-8">
+            <h3 class="text-xl font-bold text-amber-900 mb-4 flex items-center gap-2">
+                📝 Fórmulas para anotar en tu formulario
+            </h3>
+            
+            <div class="space-y-3">
+                <div class="bg-white p-3 rounded shadow-sm border border-amber-100">
+                    <p class="text-sm text-slate-500 mb-1">Energía Cinética:</p>
+                    <p class="font-mono text-lg font-bold text-slate-800">$K = \frac{1}{2}mv^2$</p>
+                </div>
+                
+                <div class="bg-white p-3 rounded shadow-sm border border-amber-100">
+                    <p class="text-sm text-slate-500 mb-1">Teorema del Trabajo para frenar hasta el reposo:</p>
+                    <p class="font-mono text-lg font-bold text-slate-800">$F \cdot d = \frac{1}{2}mv^2$</p>
+                    <p class="text-sm text-slate-400 mt-1">Donde $F$ es la magnitud de la fuerza de frenado constante y $d$ es la distancia.</p>
+                </div>
+
+                <div class="bg-white p-3 rounded shadow-sm border border-amber-100">
+                    <p class="text-sm text-slate-500 mb-1">Distancia de frenado despejada:</p>
+                    <p class="font-mono text-lg font-bold text-slate-800">$d = \frac{K_i}{F}$</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- VOCABULARIO Y PREGUNTAS -->
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-slate-50 p-5 rounded-xl border border-slate-200">
+                <h3 class="font-bold text-slate-800 mb-3">Vocabulario Clave</h3>
+                <ul class="text-sm text-slate-600 space-y-2">
+                    <li><strong>Fuerza de Frenado:</strong> Fuerza (como la fricción o los frenos de un auto) que actúa en dirección opuesta al vector de velocidad, realizando trabajo negativo para reducir la energía cinética.</li>
+                    <li><strong>Joules (J):</strong> La unidad de medida tanto para el Trabajo Mecánico como para la Energía Cinética en el Sistema Internacional.</li>
+                </ul>
+            </div>
+            
+            <div class="bg-blue-50 p-5 rounded-xl border border-blue-200">
+                <h3 class="font-bold text-blue-900 mb-3">Preguntas de Repaso</h3>
+                <ul class="text-sm text-blue-800 space-y-2 list-decimal pl-4">
+                    <li>¿Por qué duplicar la velocidad de un auto cuadruplica la distancia que necesita para frenar, asumiendo la misma fuerza de los frenos?</li>
+                    <li>Si un camión pesa el doble que un auto pero ambos viajan a la misma velocidad, ¿cuánta más fuerza de frenado necesita el camión para detenerse en la misma distancia?</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+---------
 
         <div class="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-6">
             <h3 class="font-semibold text-slate-800 mb-3">Pregunta 2: Distancia de Frenado</h3>
